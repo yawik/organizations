@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
+# Translators:
+# Carsten Bleek <cbleek@yawik.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Cross Applicant Management - Organizations\n"
+"Project-Id-Version: YAWIK\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-13 15:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-05-12 18:44+0200\n"
+"PO-Revision-Date: 2016-05-13 12:45+0000\n"
+"Last-Translator: Carsten Bleek <cbleek@yawik.org>\n"
+"Language-Team: Serbian (http://www.transifex.com/yawik/yawik/language/sr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: view/organizations/invite-employee/accept.phtml:12
 msgid "You have accepted the invitation"
-msgstr ""
+msgstr "Сте прихватили позив"
 
 #: view/organizations/invite-employee/accept.phtml:13
 #, php-format
@@ -28,11 +29,11 @@ msgstr ""
 
 #: view/organizations/invite-employee/accept.phtml:18
 msgid "Please choose a password to be able to log in."
-msgstr ""
+msgstr "Молимо унесите шифру да би могли да се пријавите."
 
 #: view/organizations/index/index.phtml:14
 msgid "Organizations"
-msgstr ""
+msgstr "organizacije"
 
 #: view/organizations/index/index.ajax.phtml:71
 #, php-format
@@ -41,56 +42,56 @@ msgstr ""
 
 #: view/organizations/index/form.phtml:6 language/_annotated_strings.php:3
 msgid "Organization"
-msgstr ""
+msgstr "организација"
 
 #: view/form/invite-employee-bar.phtml:14
 msgid "Via email address"
-msgstr ""
+msgstr "Виа емаил адресу"
 
 #: view/form/invite-employee-bar.phtml:23
 msgid "Invite"
-msgstr ""
+msgstr "позвати"
 
 #: view/form/invite-employee-bar.phtml:33 language/_annotated_strings.php:12
 #: language/_annotated_strings.php:87
 msgid "Invite an employee via email address."
-msgstr ""
+msgstr "Позивамо запосленог преко е-маил адресу."
 
 #: view/form/invite-employee-bar.phtml:36
 msgid "Click on this button will add the employee with the status \"pending\""
-msgstr ""
+msgstr "Кликните на ово дугме ће додати запосленог са статусом \"на чекању\""
 
 #: view/form/employee-fieldset.phtml:33
 msgid "PENDING"
-msgstr ""
+msgstr "У ПРОЦЕДУРИ"
 
 #: view/form/employees-fieldset.phtml:24
 msgid "Users"
-msgstr ""
+msgstr "усерс"
 
 #: view/form/employees-fieldset.phtml:25 language/_annotated_strings.php:15
 msgid "View Jobs"
-msgstr ""
+msgstr "Погледај Послови"
 
 #: view/form/employees-fieldset.phtml:26 language/_annotated_strings.php:18
 msgid "Edit Jobs"
-msgstr ""
+msgstr "едит Послови"
 
 #: view/form/employees-fieldset.phtml:27 language/_annotated_strings.php:21
 msgid "Create Jobs"
-msgstr ""
+msgstr "отварање нових радних мјеста"
 
 #: view/form/employees-fieldset.phtml:28 language/_annotated_strings.php:24
 msgid "View Applications"
-msgstr ""
+msgstr "Погледај Апликације"
 
 #: view/form/employees-fieldset.phtml:29 language/_annotated_strings.php:27
 msgid "Edit Applications"
-msgstr ""
+msgstr "Измена Апликације"
 
 #: view/form/employees-fieldset.phtml:41
 msgid "pending"
-msgstr ""
+msgstr "нерешен"
 
 #: view/mail/invite-employee.phtml:28
 #, php-format
@@ -99,7 +100,7 @@ msgstr ""
 
 #: view/mail/invite-employee.phtml:29
 msgid "Hello"
-msgstr ""
+msgstr "Здраво"
 
 #: view/mail/invite-employee.phtml:34
 #, php-format
@@ -108,7 +109,7 @@ msgstr ""
 
 #: view/mail/invite-employee.phtml:39
 msgid "You can accept this invitation by visiting the following link"
-msgstr ""
+msgstr "Можете прихватити овај позив да посетите следећи линк"
 
 #: view/mail/invite-employee.phtml:47
 #, php-format
@@ -128,15 +129,15 @@ msgstr ""
 msgid ""
 "If you do not want to accept this invitation you can ignore this mail and "
 "the request is canceled automatically after a week."
-msgstr ""
+msgstr "Ако не желите да прихватите овај позив можете игнорисати ову поруку и захтев је отказан аутоматски након недељу дана."
 
 #: view/error/invite.phtml:11
 msgid "Doh! There was something going terribly wrong."
-msgstr ""
+msgstr "Дох! Било је нешто догађа по злу."
 
 #: view/error/no-parent.phtml:15
 msgid "Sorry, you may not create organizations."
-msgstr ""
+msgstr "Жао ми је, не може да створи организације."
 
 #: view/error/no-parent.phtml:18
 #, php-format
@@ -147,131 +148,131 @@ msgstr ""
 
 #: src/Organizations/Controller/Plugin/InvitationHandler.php:233
 msgid "Email address is invalid."
-msgstr ""
+msgstr "Е-маил адреса није исправна."
 
 #: src/Organizations/Controller/Plugin/InvitationHandler.php:246
 msgid "Sending invitation mail failed."
-msgstr ""
+msgstr "Слање позивнице поште није успела."
 
 #: language/_annotated_strings.php:6 language/_annotated_strings.php:99
 msgid "City"
-msgstr ""
+msgstr "град"
 
 #: language/_annotated_strings.php:9
 msgid "Street"
-msgstr ""
+msgstr "улица"
 
 #: language/_annotated_strings.php:30
 msgid "Recruiter"
-msgstr ""
+msgstr "рецруитер"
 
 #: language/_annotated_strings.php:33
 msgid "Department Manager"
-msgstr ""
+msgstr "Руководилац"
 
 #: language/_annotated_strings.php:36
 msgid "Managing Directors"
-msgstr ""
+msgstr "direktori"
 
 #: language/_annotated_strings.php:39
 msgid "Please enter the name of the hiring organization."
-msgstr ""
+msgstr "Молимо Вас да унесете име организације запошљавања."
 
 #: language/_annotated_strings.php:42
 msgid "Please enter a contact for the hiring organization."
-msgstr ""
+msgstr "Унесите контакт за организацију запошљавања."
 
 #: language/_annotated_strings.php:45
 msgid "Please enter a description for the hiring organization."
-msgstr ""
+msgstr "Унесите опис за организацију запошљавања."
 
 #: language/_annotated_strings.php:48
 msgid "Employees"
-msgstr ""
+msgstr "zaposleni"
 
 #: language/_annotated_strings.php:51
 msgid "Manage your employees and their permissions."
-msgstr ""
+msgstr "Организујте своје запослене и њихове дозволе."
 
 #: language/_annotated_strings.php:54
 msgid "Workflow"
-msgstr ""
+msgstr "Процес рада"
 
 #: language/_annotated_strings.php:57
 msgid "Define, how notifications about new applications reach your employees"
-msgstr ""
+msgstr "Дефинисати, како обавештења о новим апликацијама остварили своје запослене"
 
 #: language/_annotated_strings.php:60
 msgid "Description"
-msgstr ""
+msgstr "опис"
 
 #: language/_annotated_strings.php:63
 msgid ""
 "Choose a Logo. This logo will be shown in the job opening and the "
 "application form."
-msgstr ""
+msgstr "Изаберите Лого. Овај лого ће бити приказан на отварању нових радних места и обрасцу."
 
 #: language/_annotated_strings.php:66
 msgid "Organizationname"
-msgstr ""
+msgstr "Назив организације"
 
 #: language/_annotated_strings.php:69
 msgid "accept Applications by Department Managers"
-msgstr ""
+msgstr "прима захтеве од стране Одељења менаџера"
 
 #: language/_annotated_strings.php:72
 msgid ""
 "if checked, department managers are informed about new applications first."
-msgstr ""
+msgstr "ако провери, робне менаџери су први обавештени о новим апликацијама."
 
 #: language/_annotated_strings.php:75
 msgid ""
 "Department managers are notified of incoming applications and must accept "
 "this. Only then the recruiter can start his work with the application"
-msgstr ""
+msgstr "Департмент менаџери су обавештени о долазним апликација и мора прихватити ово. Тек онда врбовао може почети свој рад са применом"
 
 #: language/_annotated_strings.php:78
 msgid "assign department managers to jobs"
-msgstr ""
+msgstr "доделити одељења менаџере на радна места"
 
 #: language/_annotated_strings.php:81
 msgid "if checked, department managers have to be assigned to job postings."
-msgstr ""
+msgstr "ако провери, робне менаџери морају бити додељен књижења посао."
 
 #: language/_annotated_strings.php:84
 msgid ""
 "if you have more them one department managers, you can assign them to a job "
 "posting. If nobody is assigned, all department managers will be informed "
 "about new applications"
-msgstr ""
+msgstr "ако имате више их једном одељењу менаџерима, можете их доделити постављање посла. Ако нико је додељен, сви менаџери одељења ће бити информисани о новим апликацијама"
 
 #: language/_annotated_strings.php:90
 msgid "street"
-msgstr ""
+msgstr "улица"
 
 #: language/_annotated_strings.php:93
 msgid "house number"
-msgstr ""
+msgstr "Кућни број"
 
 #: language/_annotated_strings.php:96
 msgid "Postalcode"
-msgstr ""
+msgstr "Поштански код"
 
 #: language/_annotated_strings.php:102
 msgid "Phone"
-msgstr ""
+msgstr "телефон"
 
 #: language/_annotated_strings.php:105
 msgid "Fax"
-msgstr ""
+msgstr "факс"
 
 #: language/_annotated_strings.php:108
 msgid "The organization referenced in your request could not be found."
-msgstr ""
+msgstr "Организација наводи у вашем захтеву није могао бити пронађен."
 
 #: language/_annotated_strings.php:111
 msgid "The access token you provided seems to have expired."
-msgstr ""
+msgstr "Приступ знак сте дали Изгледа да је истекао."
 
 #: language/_annotated_strings.php:114
 #, php-format
@@ -280,8 +281,8 @@ msgstr ""
 
 #: language/_annotated_strings.php:117
 msgid "Overview"
-msgstr ""
+msgstr "преглед"
 
 #: language/_annotated_strings.php:120
 msgid "Insert"
-msgstr ""
+msgstr "инсерт"
